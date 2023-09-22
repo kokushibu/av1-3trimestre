@@ -1,0 +1,34 @@
+.Imagem{
+    width: 80px!important;
+    height: 80px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+@media  screen and (min-width: 1024px ) {
+    .gridimg{
+        background-color: rgb(5, 97, 151)
+    }
+    .Imagem{
+        border-top: 10px groove rgb(209, 209, 209);
+        border-left: 10px dotted rgb(218, 28, 28);
+        border-right: 10px solid rgb(28, 26, 32);
+        border-bottom: 10px dashed rgb(137, 210, 219);
+        width: 180px !important;
+        height: 140px !important;
+    }
+    .titulo{
+        font-size: 30px;
+    }
+}
