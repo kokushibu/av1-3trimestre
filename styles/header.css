@@ -33,25 +33,20 @@
 }
 
 .container__botao{
+    <div class="div-imagem">
+        <img class="Imagem" src="img/fusca tunao.jpeg" alt="">
+        <h1 class="titulo">bugusga</h1>
+    </div>
     display: none;
 }
 
 .container__botao:checked~ .lista-menu{
     display: block;
 }
-
-.lista-menu__titulo{
-    color: var(--amarelo);
-}
-
-.lista-menu__item{
-    background: var(--roxo-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-transform: uppercase;
-}
-    
+<div class="div-imagem">
+    <img class="Imagem" src="img/fusca tunao.jpeg" alt="">
+    <h1 class="titulo">bugusga</h1>
+</div>
 
 .lista-menu__titulo, .lista-menu__item{
     padding: 1em;

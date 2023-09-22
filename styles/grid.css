@@ -21,10 +21,10 @@
         background-color: rgb(5, 97, 151)
     }
     .Imagem{
-        border-top: 10px groove rgb(209, 209, 209);
-        border-left: 10px dotted rgb(218, 28, 28);
-        border-right: 10px solid rgb(28, 26, 32);
-        border-bottom: 10px dashed rgb(137, 210, 219);
+        border-top: 10px groove rgb(17, 17, 17);
+        border-left: 10px dotted rgb(21, 187, 35);
+        border-right: 10px solid rgb(81, 6, 230);
+        border-bottom: 10px dashed rgb(224, 18, 18);
         width: 180px !important;
         height: 140px !important;
     }
