@@ -26,22 +26,17 @@
 
 .lista-menu{
     display: none;
-    position: absolute;
+    position: 1;
     top: 100%;
     background-color: var(--branco);
     width: 60vw;
 }
-
-.container__botao{
-    <div class="div-imagem">
-        <img class="Imagem" src="img/fusca tunao.jpeg" alt="">
-        <h1 class="titulo">bugusga</h1>
-    </div>
-    display: none;
+.opcoes-menu{
+    
 }
 
-.container__botao:checked~ .lista-menu{
-    display: block;
+.lista-menu{
+    display: flex;
 }
 <div class="div-imagem">
     <img class="Imagem" src="img/fusca tunao.jpeg" alt="">
@@ -64,4 +59,24 @@
         color: rgb(73, 44, 240) (43, 226, 101);
         display: block;
 }
+}
+
+.opcoes{
+    display: flex;
+}
+.opcoes__item{
+    padding: 0 1em;
+}
+.opcoes__link{
+    text-decoration: none;
+    color: black;
+}
+.container__transparente{
+    display: none;
+}
+.cabecalho__menu-hamburguer{
+    display: none;
+}
+.opcoes__botao:checked~.lista-menu{
+    display: block;
 }
